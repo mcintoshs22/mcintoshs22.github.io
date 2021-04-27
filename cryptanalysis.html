@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Keyword Cipher</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<script src="script.js"></script>
+
+<div id="container">
+<header>
+	<h1>Keyword Cipher Cryptanalysis</h1>
+</header>
+
+	<label for="input"><strong>Enter ciphertext here:</strong></label><br>
+	<textarea type="text" id="cryptinput" name="cryptinput" rows="5" cols="50" oninput="doCipherTextBox(this.id)"></textarea><br><br>
+	
+	<label style="font-size:16px;"><strong>Enter letters below to replace in ciphertext:</strong></label><br>
+	<p>a &nbsp &nbsp b &nbsp &nbsp c &nbsp &nbsp d &nbsp &nbsp e &nbsp &nbsp f &nbsp &nbsp g &nbsp &nbsp h &nbsp &nbsp i &nbsp &nbsp j &nbsp &nbsp k &nbsp &nbsp l &nbsp &nbsp m &nbsp &nbsp n &nbsp &nbsp o &nbsp &nbsp p &nbsp &nbsp q &nbsp &nbsp r &nbsp &nbsp s &nbsp &nbsp t &nbsp &nbsp u &nbsp &nbsp v &nbsp &nbsp w &nbsp &nbsp x &nbsp &nbsp y &nbsp &nbsp z</p>
+	<input type="text" id="a" name="a" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="b" name="b" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="c" name="c" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="d" name="d" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="e" name="e" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="f" name="f" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="g" name="g" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="h" name="h" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="i" name="i" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="j" name="j" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="k" name="k" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="l" name="l" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="m" name="m" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="n" name="n" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="o" name="o" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="p" name="p" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="q" name="q" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="r" name="r" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="s" name="s" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="t" name="t" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="u" name="u" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="v" name="v" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="w" name="w" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="x" name="x" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="y" name="y" maxlength="1" oninput="doSwitch(this.id)">
+	<input type="text" id="z" name="z" maxlength="1" oninput="doSwitch(this.id)"><br><br>
+
+	<label for="output"><strong>Output:</strong></label><br>
+	<textarea readonly id="cryptoutput" name="cryptoutput" rows="5" cols="50"></textarea><br><br>
+	
+	<a href="keyword_cipher_project.html">Back to Encryption & Decryption</a>
+
+</div>
+<footer>
+	<p>Created by Sophia McIntosh at Northern Kentucky University 2021</p>
+</footer>
+</body>
+</html>
