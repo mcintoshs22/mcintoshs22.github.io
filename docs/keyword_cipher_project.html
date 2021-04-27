@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Keyword Cipher</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<script src="script.js"></script>
+
+<div id="container">
+<header>
+	<h1>Keyword Cipher</h1>
+</header>
+
+<form>
+	<label for="input"><strong>Input:</strong></label><br>
+	<textarea id="input" name="input" rows="4" cols="50"></textarea><br><br>
+
+	<label for="keyword"><strong>Keyword:</strong></label><br>
+	<input type="text" id="keyword" name="keyword"><br><br>
+
+	<label for="keyletter"><strong>Key letter:</strong></label><br>
+	<input type="text" id="keyletter" name="keyletter"><br><br>
+
+	<button type="button" id="encipher" onclick="doEncipher()">Encipher</button>
+	<button type="button" id="decipher" onclick="doDecipher()">Decipher</button><br>
+
+	<p><strong>Plaintext: </strong> &nbsp <textarea readonly id="plaintext" name="plaintext" rows="1" columns="50"></textarea></p>
+	<p><strong>Ciphertext:</strong> <textarea readonly id="ciphertext" name="ciphertext" rows="1" columns="50"></textarea></p>
+	
+	<label for="output"><strong>Output:</strong></label><br>
+	<textarea id="output" name="output" rows="4" cols="50"></textarea><br><br>
+		
+	<a href="cryptanalysis.html">Cryptanalysis</a>
+		 
+</form>
+
+</div>
+<footer>
+	<p>Created by Sophia McIntosh at Northern Kentucky University 2021</p>
+</footer>
+</body>
+</html>

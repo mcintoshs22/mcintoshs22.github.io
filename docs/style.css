@@ -1,0 +1,81 @@
+body {
+    background-color: #F2DCE9;
+	padding-right: 100px;
+	padding-left: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #7a0439;
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+label {
+	color: #7a0439;
+	font-size: 18px;
+}
+
+p {
+	color: #7a0439;
+	font-size: 16px;
+}
+
+#input, #output {
+	width: 100%;
+	border-width: 5px;
+	border-color: gray;
+	background-color: #fcf2f8;
+	font-size: 16px;
+}
+
+#keyword, #keyletter {
+	border: 3px solid gray;
+	background-color: #fcf2f8;
+}
+
+#encipher, #decipher {
+	border-radius: 18px;
+	background-color: #fcf2f8;
+	color: #7a0439;
+	font-size: 16px;
+	border-color: #7a0439;
+}
+
+#ciphertext, #plaintext {
+	width: 80%;
+	padding-left: 15px;
+	border: none;
+	color: #7a0439;
+	background-color: #F2DCE9;
+	border-color: none;
+	font-size: 16px;
+	word-spacing: 1px;
+}
+
+#cryptinput, #cryptoutput {
+	width: 80%;
+	border-width: 5px;
+	border-color: gray;
+	background-color: #fcf2f8;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z {
+	width: 1.5ch;
+	padding: 5px;
+}
+
+a {
+	background-color: #fcf2f8;
+	color: #7a0439;
+	text-decoration: none;
+	border-style: solid;
+	padding: 3px;
+	border-color: #7a0439;
+}
+
+footer {
+	color: #7a0439;
+	font-size: 12px;
+	text-align: center;
+}
